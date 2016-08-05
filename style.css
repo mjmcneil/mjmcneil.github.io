@@ -166,7 +166,7 @@ font-family: 'Slabo 13px', serif;
 
 	background-size: cover;
 	color: white;
-	height: 400px;
+	height: 550px;
 	padding: 100px 0 0 0;
 }
 #portfolio a{
@@ -180,6 +180,7 @@ font-family: 'Slabo 13px', serif;
 	font-family: 'Muli', sans-serif;
 	margin:10px;
 	width:100%;
+	float: left;
 }
 #portfolio a:hover{
 	background: #581723;
