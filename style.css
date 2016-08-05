@@ -118,9 +118,11 @@ font-family: 'Slabo 13px', serif;
 #intro{
 	background:url(images/tri.png) 50% 0 no-repeat fixed;
 	color: white;
-	height: 750px;
+	/*height: 750px;
 	margin: 0 auto;
-	padding: 200px 0 0 0;	
+	padding: 200px 0 0 0;*/	
+	margin: 0 auto;
+	padding: 200px 0 200px 0;
 
 }
 
@@ -131,10 +133,10 @@ font-family: 'Slabo 13px', serif;
 	background: #581723; /* burgundy */
 
 	color: white;
-	height: 750px;
+	/*height: 750px;*/
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 100px 0 0 0;	
+	padding: 100px 0 100px 0;	
 }
 
 #second .bg{
@@ -154,7 +156,8 @@ font-family: 'Slabo 13px', serif;
 	/*background: #424242;*/
 	color: white;
 	height: 650px;
-	padding: 100px 0 0 0;	
+padding: 100px 0 100px 0;
+	
 }
 
 #fourth{
@@ -164,8 +167,9 @@ font-family: 'Slabo 13px', serif;
 	
 	color: #d25823; /* orange */
 	color: #581723; /* burgundy */
-	height: 750px;
-	padding: 100px 0 0 0;	
+/*	height: 750px;
+*/padding: 100px 0 100px 0;
+	
 }
 #fourth::after{
 	background: rgba(0,0,0,0.5);
@@ -177,9 +181,10 @@ font-family: 'Slabo 13px', serif;
 	/*background: #FFFFF9;*/
 
 
-	height: 300px;
-	margin: 0 auto;
-	padding: 100px 0 0 0;
+/*	height: 300px;
+*/	margin: 0 auto;
+padding: 100px 0 100px 0;
+	
 }
 
 .whiteOut{
