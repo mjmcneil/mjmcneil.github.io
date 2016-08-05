@@ -159,26 +159,27 @@ font-family: 'Slabo 13px', serif;
 }
 #portfolio{
 	 background: #d25823; /* For browsers that do not support gradients */
-  	background: -webkit-linear-gradient(left top, #d25823, #fecd83); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient(bottom right, #d25823, #fecd83); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient(bottom right, #d25823, #fecd83); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(to bottom right, #d25823, #fecd83); /* Standard syntax */
+  	background: -webkit-linear-gradient(left top, #d25823, #d25823,#fecd83); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(bottom right, #d25823,#d25823, #fecd83); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(bottom right, #d25823, #d25823,#fecd83); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to bottom right, #d25823, #d25823,#fecd83); /* Standard syntax */
 
 	background-size: cover;
 	color: white;
 	height: 400px;
 	padding: 100px 0 0 0;
-	
 }
 #portfolio a{
 	border: solid 1px white;
-	padding: 5px 20px;
+	padding: 10px 20px;
 	color: white;
 	text-decoration: none;
 	font-size: 18px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-family: 'Muli', sans-serif;
+	margin:10px;
+	width:100%;
 }
 #portfolio a:hover{
 	background: #581723;
