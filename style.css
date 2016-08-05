@@ -158,19 +158,22 @@ font-family: 'Slabo 13px', serif;
 	
 }
 #portfolio{
-	background: url(images/whitetextured.png) 50% 0 no-repeat fixed;
-	background-size: cover;
+	 background: #d25823; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left top, #d25823, #fecd83); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(bottom right, #d25823, #fecd83); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(bottom right, #d25823, #fecd83); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to bottom right, #d25823, #fecd83); /* Standard syntax */
 
-	/*background: #424242;*/
+	background-size: cover;
 	color: white;
 	height: 400px;
 	padding: 100px 0 0 0;
 	
 }
 #portfolio a{
-	border: solid 1px #333333;
+	border: solid 1px white;
 	padding: 5px 20px;
-	color: #333333;
+	color: white;
 	text-decoration: none;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -178,7 +181,7 @@ font-family: 'Slabo 13px', serif;
 	font-family: 'Muli', sans-serif;
 }
 #portfolio a:hover{
-	background: #d25823;
+	background: #581723;
 	text-decoration: none;
 }
 #portfolio a:link{
@@ -189,7 +192,7 @@ font-family: 'Slabo 13px', serif;
 	text-decoration: none;
 }
 #portfolio a:active{
-	background: #581723;
+	background: #333333;
 	text-decoration: none;
 }
 
