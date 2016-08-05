@@ -29,28 +29,6 @@
 		text-decoration: underline;
 		color: #660066;
 		}
-	#intro{	
-		height: auto;
-		padding: 200px 0 200px 0;
-	}
-	#second{
-		height: auto;
-		padding: 100px 0 100px 0;	
-	}
-	#third{
-		height: auto;
-		padding: 100px 0 100px 0;	
-	}
-	
-	#fourth{
-		height: auto;
-		padding: 100px 0 100px 0;
-	}
-	#fifth{	
-		
-		height: auto;
-		padding: 100px 0 100px 0;
-	}
 }
 /* iPhone-specific styles */
 @media only screen and (max-device-width: 480px) { 
