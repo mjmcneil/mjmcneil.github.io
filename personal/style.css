@@ -238,3 +238,7 @@ h3{
 .large{
     width: 100%;
 }
+
+.jumbotron{
+    background:white;
+}

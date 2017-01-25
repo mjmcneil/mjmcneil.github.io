@@ -13,9 +13,8 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 /* CSS Document */
 
 body{
-	margin: 0;
-	min-width: 980px;
-	padding: 0;
+	height: 100%;
+    width: 100%;
 }
 
 p{
@@ -115,49 +114,29 @@ font-family: 'Slabo 13px', serif;
 
 }
 
-#intro{
+.introSection{
 	background:url(images/tri.png) 50% 0 no-repeat fixed;
 	color: white;
-	height: 750px;
 	margin: 0 auto;
-	padding: 200px 0 0 0;
+	padding: 200px 0 200px 0;
 
 }
-
-#second{
-	/*background: url(images/bluecross.png) 50% 0 no-repeat fixed;*/
-	/*background: #00CCD6;*/
-	background: #d25823; /* orange */
-	background: #581723; /* burgundy */
-
+.secondSection{
+	background-color: #581723; /* burgundy */
 	color: white;
-	height: 750px;
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 100px 0 0 0;	
+	padding: 100px 0 100px 0;
 }
 
-#second .bg{
-	background: url(images/trainers.png) 50% 0 no-repeat fixed;
-	height: 1000px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 900px;
-	z-index: 200;
-}
-
-#third{
+.thirdSection{
 	background: url(images/greytextured.png) 50% 0 no-repeat fixed;
 	background-size: cover;
-
-	/*background: #424242;*/
 	color: white;
-	height: 650px;
-	padding: 100px 0 0 0;
+	padding: 100px 0 100px 0;
 	
 }
-#portfolio{
+.portfolioSection{
 	 background: #d25823; /* For browsers that do not support gradients */
   	background: -webkit-linear-gradient(left top, #d25823, #d25823,#fecd83); /* For Safari 5.1 to 6.0 */
   	background: -o-linear-gradient(bottom right, #d25823,#d25823, #fecd83); /* For Opera 11.1 to 12.0 */
@@ -166,10 +145,9 @@ font-family: 'Slabo 13px', serif;
 
 	background-size: cover;
 	color: white;
-	height: 550px;
-	padding: 100px 0 0 0;
+	padding: 100px 0 100px 0;
 }
-#portfolio a{
+.portfolioSection a{
 	border: solid 1px white;
 	padding: 10px 20px;
 	color: white;
@@ -182,46 +160,36 @@ font-family: 'Slabo 13px', serif;
 	width:100%;
 	float: left;
 }
-#portfolio a:hover{
+.portfolioSection a:hover{
 	background: #581723;
 	text-decoration: none;
 }
-#portfolio a:link{
+.portfolioSection a:link{
 	text-decoration: none;
 }
-#portfolio a:visited{
+.portfolioSection a:visited{
 	background: #333333;
 	text-decoration: none;
 }
-#portfolio a:active{
+.portfolioSection a:active{
 	background: #333333;
 	text-decoration: none;
 }
 
-#fourth{
+.fourthSection{
 	background: url(images/cleanwing.jpg) 50% 0 no-repeat fixed;
 	background-size: cover;
-	/*background: 	#FFD900;*/
-	
-	color: #d25823; /* orange */
 	color: #581723; /* burgundy */
-	height: 750px;
-	padding: 100px 0 0 0;
-	
+	padding: 100px 0 100px 0;
 }
-#fourth::after{
+.fourthSection::after{
 	background: rgba(0,0,0,0.5);
 }
 
-#fifth{	
+.fifthSection{
 	background: url(images/whitetextured.png) 50% 0 no-repeat fixed;
-
-	/*background: #FFFFF9;*/
-
-
-	height: 300px;
 	margin: 0 auto;
-	padding: 100px 0 0 0;
+	padding: 100px 0 100px 0;
 	
 }
 
@@ -242,3 +210,36 @@ font-family: 'Slabo 13px', serif;
 	width: 70%;
 }
 
+.arrow{
+    max-width: 75px;
+}
+
+#nav a{
+    background-color: RGBA(53, 53, 53,0.6);
+    border:1px solid white;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 0.5rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: 'Muli', sans-serif;
+	margin:2px;
+	width:100%;
+	float: left;
+}
+#nav a:hover{
+	background: #581723;
+	text-decoration: none;
+}
+#nav a:link{
+	text-decoration: none;
+}
+#nav a:visited{
+	background: #333333;
+	text-decoration: none;
+}
+#nav a:active{
+	background: #333333;
+	text-decoration: none;
+}

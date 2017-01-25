@@ -1,93 +1,49 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Personal Webpage</title>
-
-<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-    
-<link href="style.css" rel="stylesheet" type="text/css" media="Screen"/>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
-<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('#nav').localScroll(800);
-	
-	//.parallax(xPosition, speedFactor, outerHeight) options:
-	//xPosition - Horizontal position of the element
-	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-	$('#intro').parallax("50%", 0.1);
-	$('#second').parallax("50%", 0.1);
-	$('#third').parallax("50%", 0.3);
-	$('#footer').parallax("50%", 0.3);
-	
-
-})
-</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Personal Webpage</title>
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    <link href="../bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" media="Screen" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
 </head>
 
 <body>
-	<ul id="nav">
-		<li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-	    <li><a href="#second" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-	    <li><a href="#third" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>		
-	    <li><a href="#footer" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
-	</ul>
-	
-	<div id="intro">
-		<div class="story">
-	    	<div class="center">
-			<h1>Personal Webpage</h1>
-	        </div>
-	    </div> <!--.story-->
-	</div> <!--#intro-->
-	
-	<div id="second">
-		<!--<div class="bg"></div>-->
-        <div class="story">
-            
-	    	<div class="column">
-	            <h2>So Many options, so little time</h2>
-				<p>Since graduating and starting my first fulltime position I knew that I want to try to apply my development skills to building this personal webpage. The real question was where to start from? I knew that I want to have a parralax feel but not based direct off a template. If I were to do it again I would've choose a more mobile friendly CSS framework</p>
-                <img  src="images/intro.png" class="oneImg"/>
-                <p>I wanted a large feature right from the start of the page followed by brief, focused content. The colour scheme was inspired by the initial background I made using an online geometric tool. The coordination of the burgundy, orange, deep grey, and white was very intentional compared to the more traditional colours of blue or green.
-                </p>
-                <a href="https://github.com/mjmcneil/mjmcneil.github.io" class="externalLink">Github repo</a>
-                <div>
-                        <img  src="images/education.png" class="twoImg"/>
-                        <img  src="images/professional.png" class="twoImg"/>
-                </div>
-                <div>
-                        <img  src="images/outside.png" class="twoImg"/>
-                        <img  src="images/portfolio.png" class="twoImg"/>
+    <div class="container">
+        <div class="jumbotron center">
+            <h1 class="display-3">Personal Webpage</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-sm-12">
+                <div class="">
+                    <h2>So Many options, so little time</h2>
+                    <p>Since graduating and starting my first fulltime position I knew that I want to try to apply my development skills to building this personal webpage. The real question was where to start from? I knew that I want to have a parralax feel but not based direct off a template. If I were to do it again I would've choose a more mobile friendly CSS framework</p> <img src="images/intro.png" class="oneImg" />
+                    <p>I wanted a large feature right from the start of the page followed by brief, focused content. The colour scheme was inspired by the initial background I made using an online geometric tool. The coordination of the burgundy, orange, deep grey, and white was very intentional compared to the more traditional colours of blue or green. </p> <a href="https://github.com/mjmcneil/mjmcneil.github.io" class="externalLink">Github repo</a>
+                    <div> <img src="images/education.png" class="twoImg" /> <img src="images/professional.png" class="twoImg" /> </div>
+                    <div> <img src="images/outside.png" class="twoImg" /> <img src="images/portfolio.png" class="twoImg" /> </div>
                 </div>
             </div>
-            
-	    </div> <!--.story-->
-	</div> <!--#second-->
-    
-	<div id="third">
-		<div class="story">
-            <div class="column">
-	        	<h2>Making a Portfolio</h2>
-                <p>Recently added a portfolio section for website. Went with a simpler theme overall, sticking to black and white for stark constrast and emphasis on the photo cotent. For the font, choose two Google fonts:  bold uppercase heading with Oswald and body text in Muli.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-sm-12">
+                <h2>Making a Portfolio</h2>
+                <p>Recently added a portfolio section for website. Went with a simpler theme overall, sticking to black and white for stark constrast and emphasis on the photo cotent. For the font, choose two Google fonts: bold uppercase heading with Oswald and body text in Muli.</p>
             </div>
-	    </div> <!--.story-->
-	</div> <!--#third-->
-	<div id="footer">
-		<div class="story"> 
-			<div class="column">
-                <a href="/aerialphoto">Aerial Photo</a>
-				<a href="/assemblyrequired">*Assembly Required</a>
-                <a href="/hackathon">Hackathon</a>
-                <!--<a href="/personal">This Webpage</a>-->
-				<a href="/">Return </a>
-			</div>
-	    </div> <!--.story-->
-	</div> <!--#fifth-->
+        </div>
+        <div id="footer" class="row justify-content-center">
+            <div class="col-md-6 col-sm-12">
+                <div class=""> <a href="/aerialphoto">Aerial Photo</a> <a href="/assemblyrequired">*Assembly Required</a> <a href="/hackathon">Hackathon</a>
+                    <!--<a href="/personal">This Webpage</a>--><a href="/">Return</a> </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
