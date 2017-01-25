@@ -180,7 +180,7 @@ font-family: 'Slabo 13px', serif;
 	background: url(images/cleanwing.jpg) 50% 0 no-repeat fixed;
 	background-size: cover;
 	color: #581723; /* burgundy */
-	padding: 100px 0 100px 0;
+	padding: 100px 0 200px 0;
 }
 .fourthSection::after{
 	background: rgba(0,0,0,0.5);
