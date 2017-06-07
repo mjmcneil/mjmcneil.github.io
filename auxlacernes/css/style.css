@@ -9,7 +9,7 @@ h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
-   font-family: 'Exo', sans-serif;
+   font-family: 'Arvo', sans-serif;
    font-size: 100%;
    background:#fff;
 }
@@ -1203,6 +1203,9 @@ img.port-pic {
 }
 .team-top-left img {
 	width: 100%;
+}
+.team-top-left {
+	padding-bottom: 15px;
 }
 .team-top {
 	margin-top: 3em;
