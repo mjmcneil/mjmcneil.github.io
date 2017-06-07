@@ -832,6 +832,31 @@ img.port-pic {
 	-o-border-radius: 1.3em;
 	-ms-border-radius: 1.3em;
 }
+#langLink {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	overflow: hidden;
+	width: 56px;
+	height: 55px;
+	border: none;
+	text-indent: 100%;
+	background-color: #00784A;
+    color:white;
+	border-radius: 1.3em;
+	-webkit-border-radius: 1.3em;
+	-moz-border-radius: 1.3em;
+	-o-border-radius: 1.3em;
+	-ms-border-radius: 1.3em;
+}
+#langLink.english{
+    background: url(../images/en.png) no-repeat 13px 12px #FECE00;
+}
+#langLink.french{
+    background: url(../images/fr.png) no-repeat 13px 12px #FECE00;
+}
 /*--start-contact--*/
 .contact {
 	padding: 4em 0px;
