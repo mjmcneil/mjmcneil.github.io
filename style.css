@@ -10,236 +10,257 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 */
 
 @charset "utf-8";
+
 /* CSS Document */
 
-body{
-	height: 100%;
+body {
+    height: 100%;
     width: 100%;
 }
 
-p{
-	margin: 0 0 20px 0;	
+p {
+    margin: 0 0 20px 0;
 }
 
-p, ul{
-	/*font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;*/
-font-family: 'Slabo 13px', serif;
-	font-size-adjust:0.488;
-	font-weight:200;
-	font-style:normal;
-	font-size:18px;
+p,
+ul {
+    /*font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;*/
+    font-family: 'Slabo 13px', serif;
+    font-size-adjust: 0.488;
+    font-weight: 200;
+    font-style: normal;
 }
 
-img{
-	border: 0;
+img {
+    border: 0;
 }
 
-h1, #pixels{
-	/*font-family:"Museo 900", Verdana, serif;*/
-font-family: 'Stint Ultra Expanded', cursive;
-	font-size-adjust:0.40;
-	font-weight:700;
-	font-style:normal;
+h1,
+#pixels {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size-adjust: 0.40;
+    font-weight: 700;
+    font-style: normal;
 }
 
-h2{
-	/*font-family:"Beau Sans Pro Book", Verdana, sans-serif;*/
-font-family: 'Ultra', serif;
-	font-size: 22px;
-	font-weight:500;
-	font-style:normal;
+h2 {
+    font-family: 'Ultra', serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
-.emphasis{
-font-family: 'Ultra', serif;
+.emphasis {
+    font-family: 'Ultra', serif;
 }
 
-.intro{
-font-family: 'Stint Ultra Expanded', cursive;
+.intro {
+    font-family: 'Stint Ultra Expanded', cursive;
 }
 
-h3{
-font-family: 'Slabo 13px', serif;
-	font-size: 20px;
-	font-weight:200;
-	font-style:normal;
-	border-style: solid;
-	border-width: 1px;
-	margin-left: auto;
+h3 {
+    font-family: 'Slabo 13px', serif;
+    font-weight: 200;
+    font-style: normal;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: auto;
     margin-right: auto;
     width: 75%;
-	padding: 50px 100px 50px 100px;
+    padding: 50px 100px 50px 100px;
 }
 
-#header h1, #pixels{
-	color: #48941A;
+#header h1,
+#pixels {
+    color: #48941A;
 }
 
-.float-left{
-	float: left;	
-		margin-left: auto;
+.float-left {
+    float: left;
+    margin-left: auto;
     margin-right: auto;
 }
 
-.float-right{
-	float: right;
-	margin: 0 20px 0 0;
+.float-right {
+    float: right;
+    margin: 0 20px 0 0;
 }
 
-.center{
-	font-size: 2.5em;
-	padding: 20px 0 0 0;
-	text-align: center;
+.center {
+    font-size: 2.5em;
+    padding: 20px 0 0 0;
+    text-align: center;
 }
 
-.column{
-	margin-left: auto;
+.column {
+    margin-left: auto;
     margin-right: auto;
-	width: 55%;
+    width: 55%;
 }
 
-#nav{
-	list-style: none;
-	position: fixed;
-	right: 20px;
+#nav {
+    list-style: none;
+    position: fixed;
+    right: 20px;
 }
 
-#nav li{
-	margin: 0 0 15px 0;	
+#nav li {
+    margin: 0 0 15px 0;
 }
 
-#header, #intro{
-	width: 100%;
-	position: relative;
-
+#header,
+#intro {
+    width: 100%;
+    position: relative;
 }
 
-.introSection{
-	background:url(images/tri.png) 50% 0 no-repeat fixed;
-	color: white;
-	margin: 0 auto;
-	padding: 200px 0 200px 0;
-
-}
-.secondSection{
-	background-color: #581723; /* burgundy */
-	color: white;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 100px 0 100px 0;
+.introSection {
+    background: url(images/tri.png) 50% 0 no-repeat fixed;
+    color: white;
+    margin: 0 auto;
+    padding: 200px 0 200px 0;
 }
 
-.thirdSection{
-	background: url(images/greytextured.png) 50% 0 no-repeat fixed;
-	background-size: cover;
-	color: white;
-	padding: 100px 0 100px 0;
-	
-}
-.portfolioSection{
-	 background: #d25823; /* For browsers that do not support gradients */
-  	background: -webkit-linear-gradient(left top, #d25823, #d25823,#fecd83); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient(bottom right, #d25823,#d25823, #fecd83); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient(bottom right, #d25823, #d25823,#fecd83); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(to bottom right, #d25823, #d25823,#fecd83); /* Standard syntax */
-
-	background-size: cover;
-	color: white;
-	padding: 100px 0 100px 0;
-}
-.portfolioSection a{
-	border: solid 1px white;
-	padding: 10px 20px;
-	color: white;
-	text-decoration: none;
-	font-size: 18px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-family: 'Muli', sans-serif;
-	margin:10px;
-	width:100%;
-	float: left;
-}
-.portfolioSection a:hover{
-	background: #581723;
-	text-decoration: none;
-}
-.portfolioSection a:link{
-	text-decoration: none;
-}
-.portfolioSection a:visited{
-	background: #333333;
-	text-decoration: none;
-}
-.portfolioSection a:active{
-	background: #333333;
-	text-decoration: none;
+.secondSection {
+    background-color: #581723;
+    /* burgundy */
+    color: white;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 100px 0 100px 0;
 }
 
-.fourthSection{
-	background: url(images/cleanwing.jpg) 50% 0 no-repeat fixed;
-	background-size: cover;
-	color: #581723; /* burgundy */
-	padding: 100px 0 200px 0;
-}
-.fourthSection::after{
-	background: rgba(0,0,0,0.5);
+.thirdSection {
+    background: url(images/greytextured.png) 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: white;
+    padding: 100px 0 100px 0;
 }
 
-.fifthSection{
-	background: url(images/whitetextured.png) 50% 0 no-repeat fixed;
-	margin: 0 auto;
-	padding: 100px 0 100px 0;
-	
+.portfolioSection {
+    background: #d25823;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #d25823, #d25823, #fecd83);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #d25823, #d25823, #fecd83);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #d25823, #d25823, #fecd83);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #d25823, #d25823, #fecd83);
+    /* Standard syntax */
+    background-size: cover;
+    color: white;
+    padding: 100px 0 100px 0;
 }
 
-.whiteOut{
-	background-color: rgba(255,255,255,0.5);
-	padding: 10px 20px;
-}
-.story{
-	margin: 0 auto;
-	min-width: 980px;
-	overflow: auto;
-	width: 980px;
-}
-
-.story .float-left, .story .float-right{
-	padding: 100px 0 0 0;
-	position: relative;
-	width: 70%;
+.portfolioSection a {
+    border: solid 1px white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Muli', sans-serif;
+    margin: 10px;
+    width: 100%;
+    float: left;
 }
 
-.arrow{
+.portfolioSection a:hover {
+    background: #581723;
+    text-decoration: none;
+}
+
+.portfolioSection a:link {
+    text-decoration: none;
+}
+
+.portfolioSection a:visited {
+    background: #333333;
+    text-decoration: none;
+}
+
+.portfolioSection a:active {
+    background: #333333;
+    text-decoration: none;
+}
+
+.fourthSection {
+    background: url(images/cleanwing.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: #581723;
+    /* burgundy */
+    padding: 100px 0 200px 0;
+}
+
+.fourthSection::after {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.fifthSection {
+    background: url(images/whitetextured.png) 50% 0 no-repeat fixed;
+    margin: 0 auto;
+    padding: 100px 0 100px 0;
+}
+
+.whiteOut {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+}
+
+.story {
+    margin: 0 auto;
+    min-width: 980px;
+    overflow: auto;
+    width: 980px;
+}
+
+.story .float-left,
+.story .float-right {
+    padding: 100px 0 0 0;
+    position: relative;
+    width: 70%;
+}
+
+.arrow {
     max-width: 75px;
 }
 
-#nav a{
-    background-color: RGBA(53, 53, 53,0.7);
-    border:1px solid white;
-	padding: 10px 20px;
-	color: white;
-	text-decoration: none;
-	font-size: 0.5rem;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-family: 'Muli', sans-serif;
-	margin:2px;
-	width:100%;
-	float: left;
+#nav a {
+    background-color: RGBA(53, 53, 53, 0.7);
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Muli', sans-serif;
+    margin: 2px;
+    width: 100%;
+    float: left;
 }
-#nav a:hover{
-	background: #581723;
-	text-decoration: none;
+
+#nav a:hover {
+    background: #581723;
+    text-decoration: none;
 }
-#nav a:link{
-	text-decoration: none;
+
+#nav a:link {
+    text-decoration: none;
 }
-#nav a:visited{
-	background: #333333;
-	text-decoration: none;
+
+#nav a:visited {
+    background: #333333;
+    text-decoration: none;
 }
-#nav a:active{
-	background: #333333;
-	text-decoration: none;
+
+#nav a:active {
+    background: #333333;
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+    p{
+        font-size:4rem;
+    }
 }
