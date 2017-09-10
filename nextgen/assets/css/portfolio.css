@@ -1,8 +1,5 @@
 #portfolio-section p, ul{
-    font-family: 'Muli', sans-serif;
-	font-size-adjust:0.488;
-	font-weight:200;
-	font-style:normal;
+    font-family: 'Montserrat', sans-serif;
 	font-size:18px;
 }
 
@@ -11,7 +8,7 @@
 }
 
 #portfolio-section h1, #pixels{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 	font-size-adjust:0.40;
 	font-weight:700;
 	font-style:normal;
@@ -21,7 +18,7 @@
 
 #portfolio-section h2{
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 	font-size: 22px;
 	font-weight:700;
 	font-style:normal;
@@ -183,4 +180,28 @@
 
 #portfolio-section .jumbotron{
     background:white;
+}
+
+.portfolio-detail {
+    background: white;
+    padding-bottom: 30px;
+}
+
+.portfolio-detail-close {
+    height: 50px;
+    padding-right: 20px;
+}
+
+.portfolio-detail-close .btn {
+    float: right;
+}
+.portfolio-detail-close .btn .close{
+    font-size: 3rem;
+}
+.back .more{
+    font-size: 0.5rem;
+    color: #E8E9EB;
+}
+.website-new{
+    color: #661E23;
 }

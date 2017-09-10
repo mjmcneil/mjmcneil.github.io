@@ -1,5 +1,35 @@
 body {
     min-height: 75rem;
+    background-color: #E8E9EB;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+p,
+ul, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2,h3,h4,h5 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.section-title {
+    margin-top: 3rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #30323D;
+}
+
+.jumbotron .display-text {
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.1;
 }
 
 .home {
@@ -22,7 +52,16 @@ body {
 }
 
 .bg-inverse {
-    background-color: #581723!important;
+    background: #581723;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #581723 0%, #652024 51%, #581723 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #581723 0%, #652024 51%, #581723 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #581723 0%, #652024 51%, #581723 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#581723', endColorstr='#581723', GradientType=1);
+    /* IE6-9 */
 }
 
 .navbar-inverse .navbar-brand,
@@ -33,7 +72,7 @@ body {
 
 .navbar .nav-link {
     padding: .25rem 0;
-    font-weight: 100;
+    font-weight: 300;
     /*  color: rgba(255,255,255,.5);*/
     color: black;
     background-color: transparent;
@@ -52,7 +91,8 @@ body {
 
 .card-img-top {
     width: 100%;
-    min-height: 300px;
+    max-width: 200px;
+    min-height: 200px;
 }
 
 .no-padding {
@@ -81,6 +121,78 @@ header {
     text-align: center;
     border: 0;
 }
+
 .card {
     border: 0;
 }
+
+#intro .focus {
+    font-weight: bold;
+    line-height: 1.25;
+}
+
+#intro .focus:hover, #intro .focus:active {
+    text-decoration: underline;
+    color: #FD7D33;
+}
+
+.introduction .text-left {
+    font-family: 'Montserrat', sans-serif;
+    color: #30323D;
+}
+
+.introduction .explain {
+    color: #30323D;
+    margin-bottom: 20px;
+}
+
+.introduction .triangle {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.introduction .triangle .arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 50px solid #FD7D33;
+}
+
+.introduction .intro-text {
+    margin-top: 30px;
+}
+
+.contact {
+    margin-bottom: 30px;
+}
+
+.contact .list-icon{
+    width: 20px;
+    margin-right: 10px;
+}
+.contact .contact-photo{
+    border-radius: 50%;
+    width: 100%;
+}
+.contact .list-group-item{
+    background-color: #E8E9EB; 
+    border: none;
+}
+.contact .list-group-item-action:hover {
+    color: #464a4c;
+    text-decoration: none;
+    background-color: #f7f7f9;
+}
+.experience .card {
+    background-color: inherit;
+}
+/*
+icons from noun project and icon finder
+linkedin > simple icon
+resume > jngll
+email > Lorena Salagre
+ux > rajakumara
+agile > Creative Stall
+chart > Mahmure Alp
+*/

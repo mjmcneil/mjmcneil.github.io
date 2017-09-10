@@ -45,9 +45,9 @@
 
 .parallax-flipping-cards .back{
   background: #353535;
-  background: -moz-linear-gradient(45deg,  #353535 0%, #676767 100%);
-  background: -webkit-linear-gradient(45deg,  #353535 0%,#676767 100%);
-  background: linear-gradient(45deg,  #353535 0%,#676767 100%);
+  background: -moz-linear-gradient(45deg,  #262830 0%, #82848A 100%);
+  background: -webkit-linear-gradient(45deg,  #262830 0%,#82848A 100%);
+  background: linear-gradient(45deg,  #262830 0%,#82848A 100%);
 }
 
 .parallax-flipping-cards .front:after{
@@ -60,7 +60,7 @@
     content: '';
     display: block;
     opacity: .6;
-    background-color: #000;
+    background-color: #18191E;
     backface-visibility: hidden;
     border-radius: 10px;
 }
@@ -72,8 +72,11 @@
 .parallax-flipping-cards .back{
     position: absolute;
     top: 0;
+    width: calc(100% - 30px);
+/*
     left: 0;
     width: 100%;
+*/
 }
 
 .parallax-flipping-cards .inner{
