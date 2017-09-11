@@ -146,12 +146,12 @@ header {
     margin-bottom: 20px;
 }
 
-.introduction .triangle {
+.arrow .triangle {
     width: 200px;
     margin: 0 auto;
 }
 
-.introduction .triangle .arrow-down {
+.arrow .triangle .arrow-down {
   width: 0; 
   height: 0; 
   border-left: 100px solid transparent;
