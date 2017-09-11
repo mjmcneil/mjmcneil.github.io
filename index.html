@@ -1,123 +1,121 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../favicon.ico">
     <title>Megan McNeil</title>
-    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700" rel="stylesheet" />
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/portfolio.css" rel="stylesheet">
+    <link href="assets/css/parallax-flipping-cards.css" rel="stylesheet"> 
+    <!-- font selection -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,700" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Ultra' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'>
-    <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css" media="Screen" />
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
-    <script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
-    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#nav').localScroll(800);
-            $('#introLink').localScroll(800);
-            //.parallax(xPosition, speedFactor, outerHeight) options:
-            //xPosition - Horizontal position of the element
-            //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-            //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-            $('#intro').parallax("50%", 0.1);
-            $('#second').parallax("50%", 0.1);
-            $('#third').parallax("50%", 0.3);
-            $('#fourth').parallax("50%", 0.3);
-            $('#fifth').parallax("50%", 0.3);
-        })
-    </script>
+
 </head>
 
 <body>
-    <ul id="nav">
-        <li>
-            <a href="#second">Education</a>
-        </li>
-        <li>
-            <a href="#third">Professional</a>
-        </li>
-        <li>
-            <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-            <a href="#fourth">Extra</a>
-        </li>
-        <li>
-            <a href="#fifth">Contact</a>
-        </li>
-    </ul>
-    <div id="intro" class="container introSection">
-        <div class="col-md-12">
-            <div class="center">
-                <h3 class="intro"><span class="emphasis">Hello there! </span>I’m a Systems Design Engineer currently based in Montreal, Canada. Professionally, I’m fascinated by how society interacts with technology and how that affects user experience methods. I’m interested in professional opportunities including data analytics, UI/UX, and product development.
-			</h3>
-                <div id="introLink">
-                    <a href="#second" title="Next Section"><img src="images/arrowdowncircle.png" alt="Link" class="arrow" /></a>
+    <nav class="navbar navbar-toggleable-md navbar-inverse static-top bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <a class="navbar-brand" href="#">MM</a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"> <a class="nav-link" href="#intro">Intro</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#experience-section">Experience</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#project-section">Portfolio</a> </li>
+                <!--                <li class="nav-item"> <a class="nav-link" href="#interests-section">Interests</a> </li>-->
+                <li class="nav-item"> <a class="nav-link" href="#contact-section">Contact</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="masterhead jumbotron text-center home">
+        <div class="container text-left">
+            <!--            <p class="lead">Megan McNeil</p>-->
+            <h1 class="jumbotron-heading display-text text-left">I solve complex problems by designing solutions</h1> </div>
+    </section>
+    <div class="container">
+        <div id="intro" class="row introduction">
+            <div class="triangle hidden-md-down">
+                <div class="arrow-down"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-12 intro-text">
+                    <h2 class="text-left">
+                I'm a user interface specialist currently based in Montreal, Canada. Graduated as a <a data-toggle="collapse" data-target="#demo" class="focus">System Design Engineer</a> in 2014. Since then I have been working at Ciena on <a data-toggle="collapse" data-target="#ciena" class="focus">end-to-end custom solutions.</a></h2> </div>
+                <div class="col-lg-4 col-md-12">
+                    <div id="demo" class="collapse explain"> <p>Now you’re probably wondering, “What is Systems Design?”, trust me you aren’t the first to have this question! I graduated as a Systems Design Engineer from the University of Waterloo in 2014. Systems Design takes an interdisciplinary approach to engineering problem solving combined with design project. Within my design groups I worked on a wide spectrum of projects ranging from an automated hospital triage system, self-heating gloves, and building furniture optimized for moving. In my final years, I specialized in interface and user experience design methodologies.</p> </div>
+                    <div id="ciena" class="collapse explain"><p>At Ciena, I work within the Services organization to develop custom web application for our clients. This covers the full end-to-end process including customer interactions, business to technical requirement translation, milestone definition, leading development cycles, and supporting deployment.<p><p>Supporting the developement, I have led the implementation of a sustainable agile process including playing the role of the scrum master. Our team sizes vary between 3-5 members on projects ranging from 6 months to a year. I complement this by leading the front-end developement as well as training new members of the team.  
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="experience-section" class="row experience">
+            <div class="col-md-12">
+                <h1 class="section-title">Experience</h1> </div>
+            <div class="col-md-4">
+                <div class="card"> <img class="card-img-top mx-auto" src="assets/img/chart.svg" alt="Data Analytics">
+                    <div class="card-block">
+                        <h4 class="card-title">Data Analytics</h4>
+                        <p class="card-text">Impactful and meanful visuals leading to business results</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card"> <img class="card-img-top mx-auto" src="assets/img/ux.svg" alt="UX">
+                    <div class="card-block">
+                        <h4 class="card-title">User Experience</h4>
+                        <p class="card-text">User centered design with strong technical communication</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card"> <img class="card-img-top mx-auto" src="assets/img/agile.svg" alt="Agile">
+                    <div class="card-block">
+                        <h4 class="card-title">Product Development</h4>
+                        <p class="card-text">Full end-to-end process design including all facets of major product release</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="project-section" class="row project">
+            <div class="col-md-12">
+                <h1 class="section-title">Portfolio</h1>
+                <div id="portfolio-section"></div>
+            </div>
+        </div>
+        <div id="contact-section" class="row contact">
+            <div class="col-md-12">
+                <h1 class="section-title">Contact</h1>
+            </div>
+            <div class="col-md-3 col-sm-2 hidden-xs-down">
+                <img class="contact-photo" src="assets/img/megan.png" alt="Megan McNeil">
+            </div>
+            <div class="col-md-9 col-sm-10 col-12">
+                <p class="">Good job, you've reached the end, you deserve a gold star! Otherwise I can be reached with one of the method below
+                </p>
+                <div class="list-group">
+                    <a href="resume.pdf" class="list-group-item list-group-item-action fa fa-car">
+                        <img class="list-icon" src="assets/img/resume.svg" alt="resume"> Resume </a>
+                    <a href="mailto:megan.j.mcneil@gmail.com" class="list-group-item list-group-item-action">
+                        <img class="list-icon" src="assets/img/email.svg" alt="email"> Email</a>
+                    <a href="https://ca.linkedin.com/pub/megan-mcneil/20/245/68b" class="list-group-item list-group-item-action">
+                        <img class="list-icon" src="assets/img/linkedin.svg" alt="linkedin"> LinkedIn</a>
                 </div>
             </div>
         </div>
     </div>
-    <div id="second" class="secondSection">
-        <div class="container">
-                    <h2>Education</h2>
-                    <p>I graduated as a Systems Design Engineer from the University of Waterloo in 2014. Now you’re probably wondering, “What is Systems Design?”, trust me you aren’t the first to have this question! Systems Design takes an interdisciplinary approach to engineering problem solving combined with design project. Within my design groups I worked on a wide spectrum of projects ranging from an automated hospital triage system, self-heating gloves, and building furniture optimized for moving. In my final years, I specialized in interface and user experience design methodologies.</p>
-                    <p>I was also very active outside of the classroom. Most notably I was a member of the varsity swim team for three years and was elected the Vice-President Education for the Engineering Society.</p>
-                    <p>One of my favourite parts of University was volunteering as an orientation leader. I was leader for all four years of my undergrad and an Aerial Photo director for three years. This event involved arranging 2000 students into our expertly calculated design and handling all aspects of the coordination of the event.</p>
-                </div>
-    </div>
-    <div id="third" class="thirdSection">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-sm-12">
-                    <h2>Professional Experience</h2>
-                    <p>Currently I’m working as a front-end developer and designer at Ciena Canada. My team works to develop custom application for our clients that leverage data from our customers networks. Our web application framework enables us to display this content from an aggregated database using a REST API, supported by a JAVA backend and PostgreSQL. I am designing and developing the front-end of the web application using JavaScript, CSS3, HTML5, and the Dojo Toolkit.</p>
-                    <p>In addition to a high-academic standard, Waterloo Engineering is well known for their world-class Cooperative Education System. During my five years of study, my program alternated between studying and coop every four months. In total I had six different jobs at a wide range of companies, each exposing me to a different work environment. I had the opportunity to observe many different industries including financial, non-profit, telecommunications, and product development.</p>
-                    <!--<div class="companies">
-					<p>While at NexJ, my primary role has been to lead a team developing analytics portlets using SAP Dashboard to be integrated within the NexJ CRM. My role was to consider the business applications of the dashboards and translate those requirements for the project team to complete. This consisted of: market research, designing the layout and functionality of the portlets, creating mock data, relaying with the development team, adjust portlets to reflect business specific considerations, conduct feedback meeting with senior managers, and completion of associated marking collateral. I have enjoyed this project as it has exposed me to the development of analytics.</p>
-					<p>In the fall of 2012 I had the opportunity work in Toulouse, France at Ecole Nationale de l'Aviation Civile (ENAC) as a research intern. While at ENAC I work on a initiative to remodel a prototype interface for Paparazzi which is an open source software platform developed by the university to control unmanned aerial vehicles. I analyzed the current user functions and structure of Paparazzi including going out into the field to observe user interactions. I used these observations to redesign the user interactions and the user interface for a prototype system my lab was developing. For the prototype system I created all of the SVG graphics and then implemented these components with the IStar and Paparazzi framework.</p>
-					<p>In the winter of 2012 I worked at Teledyne Dalsa in Waterloo, Ontario. While at Dalsa I worked as a web developer under corporate communications. I expanded their database functionality to include dynamically sourced language content from database content or global resource files rather than their current static language content. I enhanced their content authoring tools to include add, edit, and publish website content. As an additional project, I transferred their in-house frame rate calculation Excel algorithm into a responsive web page controlled by VB code behind dynamic look up tables. As a community outreach initiative I had the opportunity to work at the Kitchener-Waterloo United Way one day a week to help them out with their technical operations in the office. Over the course of the term I was developed a project-team matching system for them to accommodate their local annual event "The Day of Caring". The system I created allowed perspective projects and volunteer team to sign up online and then matched up based on group size or interest area by a United Way Employee. The final piece of the system allowed synchronized group emails out to projects and volunteer teams simultaneously. Overall this system saved lots of paper work and confusion by having one central system.</p>
-					<p>In the summer of 2011 I worked downtown Toronto at the backend financial company International Financial Data Services (IFDS). While at IFDS I was a part of the research and development team whose role was to introduce new innovative technologies into the office work space. I worked on numerous projects including a Work Queue Assignment System and the Xbox 360 Kinect sensor. Initially I used the Xbox Kinect to register user movements utilising C# with open source software packages OpenNI and PrimeSense-NITE to control the Work Queue Assignment. Later in the term I created a functioning backend structure to interface with existing company software using SQL and PHP, I transitioned the Work Queue Assignment system from a Kinect application to a more practical iPad web application. My last project at IFDS was to created user gesture with the Kinect which would cause less user fatigue to control existing company software.</p>
-				</div>--></div>
-            </div>
-        </div>
-    </div>
-    <div id="portfolio" class="portfolioSection">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-sm-12">
-                    <h2>Portfolio</h2>
-                    <p>Unfortunately many of my professional deliverables as proprietary and as such can not included them here. However here are some of the things I've worked on</p> <a href="/aerialphoto">Aerial Photo</a> <a href="/assemblyrequired">*Assembly Required</a> <a href="/hackathon">Hackathon</a> <a href="/personal">This Webpage</a> </div>
-            </div>
-        </div>
-    </div>
-    <div id="fourth" class="fourthSection">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-sm-12 whiteOut">
-                    <h2>Outside of Work</h2>
-                    <p>I’ve been very fortunate to be able to travel the world and I can’t wait to start planning my next trip! I’ve travel through Italy, taken a road trip to the east coast, and live in the south of France. After graduating I traveled to South East Asia and Europe; spending three weeks in Thailand and Cambodia in May 2014 and then two months backpacking throughout Europe. </p>
-                    <p>Recently I went to New Zealand for three weeks in December, incredible country with a variety of dramatic landscapes. For my next trip I would love to go to Peru or Bolivia!</p>
-                    <p>Since moving to Montreal, I’ve tried to challenge myself to try new activities and push myself outside of my comfort zone. I started rock climbing and just recently bought a road bike!</p>
-                    <p>I’m also an avid consumer of television series, I truly like it all from junky reality tv to witty comedies to intense dramas. I would challenge you to recommend a show I haven’t seen before; I’m always up to check out a new show! Currently I’m into ‘The Wonder List’ and ‘Game of Thrones’. </p>
-                </div>
-            </div>
-        </div>
-        <!--.story-->
-    </div>
-    <!--#third-->
-    <div id="fifth" class="fifthSection">
-        <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-sm-12">
-                <h3 class="intro"><span class="emphasis">Call me maybe?</span> Good job, you've reached the end, you derserve a gold star! Otherwise I can be reached by email at <a href="mailto:megan.j.mcneil@gmail.com">megan.j.mcneil@gmail.com</a> or <a href="https://ca.linkedin.com/pub/megan-mcneil/20/245/68b">LinkedIn</a>.
-				</h3> </div>
-        </div>
-        </div>
-    </div>
+    <div id="contact"></div>
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>

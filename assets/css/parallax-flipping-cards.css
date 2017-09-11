@@ -1,0 +1,143 @@
+.parallax-flipping-cards h1{
+  font-size: 2.5rem;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  color: #444;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.parallax-flipping-cards .wrapper{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 80rem;
+}
+
+.parallax-flipping-cards .cols{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.parallax-flipping-cards .col{
+  width: calc(25% - 2rem);
+  margin: 1rem;
+}
+
+.parallax-flipping-cards .container{
+  transform-style: preserve-3d;
+	perspective: 1000px;
+}
+
+.parallax-flipping-cards .front,
+.parallax-flipping-cards .back{
+  background-size: cover;
+	background-position: center;
+	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	backface-visibility: hidden;
+	text-align: center;
+	min-height: 280px;
+	height: auto;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+.parallax-flipping-cards .back{
+  background: #353535;
+  background: -moz-linear-gradient(45deg,  #262830 0%, #82848A 100%);
+  background: -webkit-linear-gradient(45deg,  #262830 0%,#82848A 100%);
+  background: linear-gradient(45deg,  #262830 0%,#82848A 100%);
+}
+
+.parallax-flipping-cards .front:after{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block;
+    opacity: .6;
+    background-color: #18191E;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+.parallax-flipping-cards .container:hover .front,
+.parallax-flipping-cards .container:hover .back{
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.parallax-flipping-cards .back{
+    position: absolute;
+    top: 0;
+    width: calc(100% - 30px);
+/*
+    left: 0;
+    width: 100%;
+*/
+}
+
+.parallax-flipping-cards .inner{
+    transform: translateY(-50%) translateZ(60px) scale(0.94);
+    top: 50%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    outline: 1px solid transparent;
+    perspective: inherit;
+    z-index: 2;
+}
+
+.parallax-flipping-cards .container .back{
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.parallax-flipping-cards .container .front{
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+}
+
+.parallax-flipping-cards .container:hover .back{
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+.parallax-flipping-cards .container:hover .front{
+  transform: rotateY(-180deg);
+  transform-style: preserve-3d;
+}
+
+.parallax-flipping-cards .front .inner p{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.parallax-flipping-cards .front .inner p:after{
+  content: '';
+  width: 4rem;
+  height: 2px;
+  position: absolute;
+  background: #C6D4DF;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -.75rem;
+}
+
+.parallax-flipping-cards .front .inner span{
+  color: rgba(255,255,255,0.7);
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+.parallax-flipping-cards .container{
+    margin-bottom: 10px;
+}
+
